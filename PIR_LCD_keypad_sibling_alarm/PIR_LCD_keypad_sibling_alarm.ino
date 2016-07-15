@@ -19,7 +19,7 @@ LiquidCrystal lcd(8, 9, 4, 5, 6, 7);  // Our LCD uses these pins (4bit mode)
 int calibrationTime = 20; // the time we give the sensor to calibrate (20-30sec)
 int pirPin = 2;           // the digital pin connected to the PIR sensor's output
 int ledPin = 13;          // the LED pin (if used)
-int buzzerPin = 12;       // the alarm buzzer pin 
+int buzzerPin = 3;       // the alarm buzzer pin 
 int x = 0;                // counter var
 
 // LCD variables and pre-comppiler defines used by the LCD and buttons
@@ -51,6 +51,7 @@ void setup(){
   // PIR Setup
   Serial.begin(9600);
   pinMode(pirPin, INPUT);       // Set up the various I/O pins
+  pinMode(buzzerPin, OUTPUT);
   pinMode(ledPin, OUTPUT);
   digitalWrite(pirPin, LOW);
   //give the sensor some time to calibrate (monitor state on the serial port)
