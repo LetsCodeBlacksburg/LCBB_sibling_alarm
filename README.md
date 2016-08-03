@@ -5,7 +5,7 @@ This letscodeblacksburg.org project is completed example code for "Sibling Detec
 alarm to show how to integrate the PIR sensor, LCD/button shield and speaker/buzzer 
 to make a motion activated alarm system. See code for hardware/software requirements.
 
-* 2016-07-15_LCBB_Sibling_Alarm.pdf
+* LCBB_Sibling_Alarm.pdf
 Sibling Alarm Workshop PDF Handout containing step by step build directions and references to cookbook recipes, etc.	
 
 
