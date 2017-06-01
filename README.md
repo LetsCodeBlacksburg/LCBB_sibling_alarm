@@ -12,7 +12,7 @@ Sibling Alarm Workshop PDF Handout containing step by step build directions and 
 For individual example recipe code for PIR sensor and LCD-key shield, see:
 PIR Motion Sensor - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/PIR_sensor_blink
 LCD-keypad Shield - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/shields/lcd_keypad
-Master LCBB Cookbook - https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/2016-07-11_LCBB_Arduino_Cookbook.pdf
+Master LCBB Cookbook - https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf
 
 All LCBB code and related materials are copy left (open sourced) under the Creative Commons (CC)(BY)(SA)[1] License.
 
