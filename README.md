@@ -9,9 +9,10 @@ to make a motion activated alarm system. See code for hardware/software requirem
 Sibling Alarm Workshop PDF Handout containing step by step build directions and references to cookbook recipes, etc.	
 
 This workshop is composed of several individual example recipe code snippets for the PIR sensor and LCD-key shield, from our Arduino cookbook here:
-PIR Motion Sensor - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/PIR_sensor_blink
-LCD-keypad Shield - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/shields/lcd_keypad
-Master LCBB Cookbook - https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf
+
+* PIR Motion Sensor - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/PIR_sensor_blink
+* LCD-keypad Shield - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/shields/lcd_keypad
+* Master LCBB Cookbook - https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf
 
 All LCBB code and related materials are copy left (open sourced) under the Creative Commons (CC)(BY)(SA)[1] License.
 
