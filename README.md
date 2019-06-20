@@ -13,6 +13,9 @@ This is the cookbook with all the build and coding recipies needed for this buil
   * "INPUT: People Motion Sensor" recipe (pg 41-42)
   * "INPUT/OUTPUT: The LCD/Keypad Shield" recipe (pg 44-50).
 
+## Sample Code Snippets
+Not requires, but nice to have (on line) to help with class time. If students/helpers get stuck, helpers can copy/paste code for each of the steps to help get student back on track.
+
 * [Step-2 Example Code - step-2_buzzer-alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-2_buzzer-alarm.ino) If you have problems with the passive buzzer code, feel free to copy/paste this code for this step.
 
 * [Step-3 Example Code - step-3_PIR-motion.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-3_PIR-motion.ino)
@@ -23,7 +26,6 @@ If you have problems with merging the PIR and buzzer code, feel free to copy/pas
 
 * [Step-5 Example Code - step-5_complete_PIR+LCD-keypad+buzzer_sibling_alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-5_complete_PIR%2BLCD-keypad%2Bbuzzer_sibling_alarm.ino)
 Merging the LCD code along with the PIR and buzzer coad can be a challenge. See how your code differs from this.
-
 
 Other example code from our cookbook recipeis can be found here:
 * PIR Motion Sensor - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/PIR_sensor_blink
