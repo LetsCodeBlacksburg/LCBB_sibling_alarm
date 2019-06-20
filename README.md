@@ -3,10 +3,15 @@
 This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR (infra-red motion) sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
 
 * [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
-This is the Sibling Detector Alarm Workshop PDF Handout (aka build doc) that contains step by step build directions and references to cookbook recipes, etc.	
+This is the Sibling Detector Alarm Workshop PDF Handout (aka build doc) that contains step by step build directions and references to sensor recipes (in the cookbook (below).	
 
 * [LCBB Arduino Cookbook](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
-This is the cookbook with all the build and coding recipies, for reference.
+This is the cookbook with all the build and coding recipies needed for this build. If you want to save on paper, recommend only printing the pages:
+  * Arduino reference sheet (pg 4-5)
+  * "Breadboard recipe" (pg 11-12)
+  * "OUTPUT: Buzzer Alarms" recipe (pg 30-31)
+  * "INPUT: People Motion Sensor" recipe (pg 41-42)
+  * "INPUT/OUTPUT: The LCD/Keypad Shield" recipe (pg 44-50).
 
 * [Step-2 Example Code - step-2_buzzer-alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-2_buzzer-alarm.ino) If you have problems with the passive buzzer code, feel free to copy/paste this code for this step.
 
