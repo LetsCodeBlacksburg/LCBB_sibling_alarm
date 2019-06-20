@@ -1,6 +1,6 @@
 # LCBB_sibling_alarm
 <IMG src=http://theweeks.org/tmp/PICS/LCBB/LCBB_Sibling-Alarm_1024.jpg width=300 align=right>
-This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
+This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR (infra-red motion) sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
 
 * [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
 This is the Sibling Detector Alarm Workshop PDF Handout (aka build doc) that contains step by step build directions and references to cookbook recipes, etc.	
