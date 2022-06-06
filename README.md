@@ -1,5 +1,5 @@
 # LCBB_sibling_alarm
-<IMG src=/misc/LCD_shield_glamour-shot.jpg width=300 align=right>
+<IMG src=/misc/LCD_shield_glamour-shot.jpg width=500 align=right>
 This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR (infra-red motion) sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
 
 * [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
