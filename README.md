@@ -21,7 +21,7 @@ Not requires, but nice to have (on line) to help with class time. If students/he
 * [Step-3 Example Code - step-3_PIR-motion.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-3_PIR-motion.ino)
 If you have problems with the PIR (Passive Infra Red/motion detector) code, feel free to copy/paste this code for this step.
 
-* [Setp-4 Example Code - step-4_PIR+buzzer.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-4_PIR%2Bbuzzer.ino)
+* [Setp-4 Example Code - step-4_PIR_buzzer.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-4_PIR_buzzer.ino)
 If you have problems with merging the PIR and buzzer code, feel free to copy/paste this code for this step.
 
 * [Step-5 Example Code - step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino)
