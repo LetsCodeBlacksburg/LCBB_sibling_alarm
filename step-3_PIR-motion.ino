@@ -3,6 +3,11 @@
 int calibrationTime = 20; //the time we give the sensor to calibrate (20­30sec)
 int pirPin = 2;     //the digital pin connected to the PIR sensor's output
 int ledPin = 13;    // the built in LED pin
+
+//////// BUZZER VARIABLES ///////
+int buzzerPin = 3;
+int x=0;
+
 /////////////////////////////
 void setup(){
   Serial.begin(9600);
@@ -18,12 +23,32 @@ void setup(){
     Serial.println(" done");
     Serial.println("SENSOR ACTIVE");
     delay(50);
+
+    pinMode(buzzerPin, OUTPUT);
+    
   }
+
+
+/////////// soundAlarm() ////////////
+void soundAlarm(int cnt){
+  for (x=0 ; x<cnt ; x++){
+    tone(buzzerPin, 500, 1000);
+    delay(1000);
+    tone(buzzerPin, 200, 1000);
+    delay(1000);
+  }
+}
+
+
+
+  
 ////////////////////////////
 void loop(){
   if(digitalRead(pirPin) == HIGH){        // If the PIR is HIGH
        digitalWrite(ledPin, HIGH);        // then turn on the LED pin and
        Serial.println("HIGH (motion)");   // print "HIGH (motion)" on serial port
+       soundAlarm(3);
+
   }
   else {
        digitalWrite(ledPin, LOW);         // else, make the LED pin low and

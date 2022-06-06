@@ -1,4 +1,6 @@
-/* PIR_LCD_keypad_sibling_alarm
+/* PIR_LCD-keypad_buzzer_sibling_alarm
+By Thomas "Tweeks" Weeks, tweeks-homework(at)theweeks.org, 2022-06-06
+
 This letscodeblacksburg.org project is completed example code for "Sibling Detector" 
 alarm to show how to integrate the PIR sensor, LCD/button shield and speaker/buzzer 
 to make a motion activated alarm system.
@@ -7,20 +9,24 @@ code - https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm
 requires - LiquidCrystal.h, 1602 LCD+button shield*, PIR motion sensor HC-SR501**
   * - for example https://www.amazon.com/dp/B007MYZF9S
  ** - for example https://www.amazon.com/dp/B0140WFNYQ/
- * 
-By Thomas "Tweeks" Weeks, tweeks-homework(at)theweeks.org, 2016-07-14
+
+LCD recipe from - https://github.com/LetsCodeBlacksburg/arduino-recipes/tree/master/shields/lcd_keypad
 */
 
 #include <LiquidCrystal.h>
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);  // Our LCD uses these pins (4bit mode)
 
 /////////////VARIABLES////////////////
+// Buzzer Variables
+int x = 0;
+int ledPin = 13;    // the built in LED pin
+int buzzerPin = 3;        // the alarm buzzer pin 
+
 // PIR Motion Sensor Variables
-int calibrationTime = 20; // the time we give the sensor to calibrate (20-30sec)
-int pirPin = 2;           // the digital pin connected to the PIR sensor's output
-int ledPin = 13;          // the LED pin (if used)
-int buzzerPin = 3;       // the alarm buzzer pin 
-int x = 0;                // counter var
+int calibrationTime = 20; //the time we give the sensor to calibrate (20­30sec)
+int pirPin = 2;     //the digital pin connected to the PIR sensor's output
+/////////////////////////////
+
 
 // LCD variables and pre-comppiler defines used by the LCD and buttons
 int lcd_key     = 0;

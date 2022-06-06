@@ -1,5 +1,5 @@
 # LCBB_sibling_alarm
-<IMG src=http://theweeks.org/tmp/PICS/LCBB/LCBB_Sibling-Alarm_1024.jpg width=300 align=right>
+<IMG src=misc/LCD_shield_glamour-shot.jpgwidth=300 align=right>
 This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR (infra-red motion) sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
 
 * [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
@@ -24,7 +24,7 @@ If you have problems with the PIR (Passive Infra Red/motion detector) code, feel
 * [Setp-4 Example Code - step-4_PIR+buzzer.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-4_PIR%2Bbuzzer.ino)
 If you have problems with merging the PIR and buzzer code, feel free to copy/paste this code for this step.
 
-* [Step-5 Example Code - step-5_complete_PIR+LCD-keypad+buzzer_sibling_alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-5_complete_PIR%2BLCD-keypad%2Bbuzzer_sibling_alarm.ino)
+* [Step-5 Example Code - step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino)
 Merging the LCD code along with the PIR and buzzer coad can be a challenge. See how your code differs from this.
 
 Other example code from our cookbook recipeis can be found here:
@@ -36,7 +36,7 @@ Other example code from our cookbook recipeis can be found here:
 * [Generic ARduino ~$10](https://www.amazon.com/dp/B07GDKLLMJ)
 * [HC-SR501 PIR Passive Infrared sensor ~$2ea](https://www.amazon.com/dp/B012ZZ4LPM)
 * [Passive peizo buzzer <$1ea](https://www.amazon.com/dp/B01GJLE5BS)
-* [LCD Button Shield ~$15](https://www.amazon.com/dp/B006D903KE)
+* [LCD Button Shield ~$15](https://www.amazon.com/dp/B006D903KE) (NOTE: Requires pin headers be soldered on, or you need to use a breadboard instead)
 * [Dupont 12" connector wires ~$8](https://www.amazon.com/dp/B06XRV92ZB/)
 * [Small breadboard ~$2ea](https://www.amazon.com/dp/B00LSG5BJK)
 
