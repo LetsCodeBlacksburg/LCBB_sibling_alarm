@@ -2,7 +2,7 @@
 <IMG src=/misc/LCD_shield_glamour-shot.jpg width=500 align=right>
 This letscodeblacksburg.org project for our "Sibling Detector Alarm", stepping students through how to integrate the PIR (infra-red motion) sensor recipe, the LCD/button shield recipe and the speaker/buzzer recipe to "mix & bake" a motion activated alarm system. See code for hardware/software requirements.
 
-* [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
+* [LCBB_Sibling_Alarm.pdf](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/raw/master/LCBB_Sibling_Alarm.pdf)
 This is the Sibling Detector Alarm Workshop PDF Handout (aka build doc) that contains step by step build directions and references to sensor recipes (in the cookbook (below).	
 
 * [LCBB Arduino Cookbook](https://github.com/LetsCodeBlacksburg/arduino-recipes/blob/master/LCBB_Arduino_Cookbook.pdf)
@@ -21,7 +21,7 @@ Not requires, but nice to have (on line) to help with class time. If students/he
 * [Step-3 Example Code - step-3_PIR-motion.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-3_PIR-motion.ino)
 If you have problems with the PIR (Passive Infra Red/motion detector) code, feel free to copy/paste this code for this step.
 
-* [Setp-4 Example Code - step-4_PIR+buzzer.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-4_PIR%2Bbuzzer.ino)
+* [Setp-4 Example Code - step-4_PIR_buzzer.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-4_PIR_buzzer.ino)
 If you have problems with merging the PIR and buzzer code, feel free to copy/paste this code for this step.
 
 * [Step-5 Example Code - step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino](https://github.com/LetsCodeBlacksburg/LCBB_sibling_alarm/blob/master/step-5_complete_PIR_LCD-keypad_buzzer_sibling_alarm.ino)
